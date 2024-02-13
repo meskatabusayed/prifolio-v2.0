@@ -1,3 +1,5 @@
+import { SKILLS } from '../../utils/data';
+import SkillCard from './SkillCard/SkillCard';
 import './skills.css'
 
 const Skills = () => {
@@ -6,7 +8,16 @@ const Skills = () => {
             <h5>Technical Proficiency</h5>
 
             <div className='skills-content'>
-                <div className='skills'></div>
+                <div className='skills'>
+                    {SKILLS.map((item) => (
+                        <SkillCard key={item.title}
+                        iconUrl={item.icon}
+                        title={item.title}
+                        >
+
+                        </SkillCard>
+                    ))}
+                </div>
 
                 <div className='skills-info'>
                     
