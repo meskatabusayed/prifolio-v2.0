@@ -1,8 +1,9 @@
-
+import './footer.css'
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
+           <p>Copyright &copy; 2024 Meskat AbuSayed</p>
             
         </div>
     );
