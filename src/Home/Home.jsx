@@ -1,3 +1,4 @@
+import ContactMe from "../components/ContactMe/ContactMe";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Skills from "../components/Skills/Skills";
@@ -12,6 +13,7 @@ const Home = () => {
                 <Hero></Hero>
                 <Skills></Skills>
                 <WorkExperience/>
+                <ContactMe></ContactMe>
             </div>
         </div>
     );
