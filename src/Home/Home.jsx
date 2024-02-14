@@ -1,6 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Skills from "../components/Skills/Skills";
+import WorkExperience from "../components/WorkExperience/WorkExperience";
 import './App.css'
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <div className="container">
                 <Hero></Hero>
                 <Skills></Skills>
+                <WorkExperience/>
             </div>
         </div>
     );
